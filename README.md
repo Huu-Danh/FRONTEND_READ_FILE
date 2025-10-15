@@ -57,7 +57,7 @@ npm run dev
 
 ## 🌐 Cấu hình kết nối API
 
-Trong file `App.tsx`, endpoint backend được gọi bằng Axios:
+Trong file `App.tsx`:
 
 ```typescript
 const resp = await fetch("https://localhost:7053/api/Parse/upload", {
